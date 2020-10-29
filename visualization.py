@@ -1,3 +1,7 @@
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+
 plt.figure(figsize=(15,10))
 sns.heatmap(df.corr(),annot=True,linewidth=0.2,cmap='coolwarm')
 
